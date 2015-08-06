@@ -1,0 +1,43 @@
+spec_init
+Loading Input Data
+Input data 131072 bytes in length
+Compressing Input Data, level 5
+Compressed data 129474 bytes in length
+Uncompressing Data
+Uncompressed data 131072 bytes in length
+Uncompressed data compared correctly
+Compressing Input Data, level 7
+Compressed data 129474 bytes in length
+Uncompressing Data
+Uncompressed data 131072 bytes in length
+Uncompressed data compared correctly
+Compressing Input Data, level 9
+Compressed data 129474 bytes in length
+Uncompressing Data
+Uncompressed data 131072 bytes in length
+Uncompressed data compared correctly
+Tested 64KB buffer: OK!
+L2$ Bytes Read:            160715200
+L2$ Bytes Written:         99376384
+L2$ Read Accesses:         2511175
+L2$ Write Accesses:        1552756
+L2$ Read Misses:           2117677
+L2$ Write Misses:          823164
+L2$ Writebacks:            1438998
+L2$ Miss Rate:             72.364%
+D$ Bytes Read:            305789528
+D$ Bytes Written:         170262781
+D$ Read Accesses:         107884368
+D$ Write Accesses:        76759267
+D$ Read Misses:           1694462
+D$ Write Misses:          816103
+D$ Writebacks:            1552756
+D$ Miss Rate:             1.360%
+I$ Bytes Read:            4387449640
+I$ Bytes Written:         0
+I$ Read Accesses:         1096862410
+I$ Write Accesses:        0
+I$ Read Misses:           610
+I$ Write Misses:          0
+I$ Writebacks:            0
+I$ Miss Rate:             0.000%

@@ -1,0 +1,69 @@
+
+Sjeng version SPEC 1.0, Copyright (C) 2000-2005 Gian-Carlo Pascutto
+
+SPEC Workload
+
+  +----+----+----+----+----+----+----+----+
+8 | *R |    |    |    | *K | *B |    | *R |
+  +----+----+----+----+----+----+----+----+
+7 |    |    |    | *N |    | *P | *P |    |
+  +----+----+----+----+----+----+----+----+
+6 | *P |    |    |    |    |    |    | *P |
+  +----+----+----+----+----+----+----+----+
+5 |    |    | *P |  P | *P |    |    | *Q |
+  +----+----+----+----+----+----+----+----+
+4 |  P | *P |    |    |  N |    |    |    |
+  +----+----+----+----+----+----+----+----+
+3 |    |    |    |  B |    |    |  P |  P |
+  +----+----+----+----+----+----+----+----+
+2 |    |  P |  Q |    |    |  P |    |    |
+  +----+----+----+----+----+----+----+----+
+1 |  R |    |    |    |  K |    |    |  R |
+  +----+----+----+----+----+----+----+----+
+
+     a    b    c    d    e    f    g    h
+
+EPD: r3kb1r/3n1pp1/p6p/2pPp2q/Pp2N3/3B2PP/1PQ2P2/R3K2R w KQkq - bm d6; id "LCT2-POS-01";
+
+Searching to 7 ply
+Opening phase.
+Time for move : 1000000
+ 2 -0.61       108 d6 ??
+ 2 -0.60       257 Qd1 !
+ 2 -0.48       490 Be2 !
+ 2 -0.39       615 Be2 Qg6 
+ 3 -0.04       949 Be2 !!
+ 3  0.10      1232 Be2 Qg6 O-O 
+ 3  0.10      2219 Be2 Qg6 O-O 
+ 4 -0.07      3017 Be2 Qg6 O-O Be7 
+ 4 -0.07      4689 Be2 Qg6 O-O Be7 
+ 5 -0.16      7202 Be2 Qg6 O-O b3 Qc4 Be7 
+ 5 -0.16     10503 Be2 Qg6 O-O b3 Qc4 Be7 
+ 6 -0.16     15048 Be2 Qg6 O-O b3 <Qc4> <Be7> 
+ 6 -0.16     28785 Be2 Qg6 O-O b3 <Qc4> <Be7> 
+ 7 -0.09     42444 Be2 Qg6 O-O Nb6 Rfd1 b3 Qd3 Be7 
+ 7 -0.09     74507 Be2 Qg6 O-O Nb6 Rfd1 b3 Qd3 Be7 
+L2$ Bytes Read:            277109184
+L2$ Bytes Written:         272298432
+L2$ Read Accesses:         4329831
+L2$ Write Accesses:        4254663
+L2$ Read Misses:           4294097
+L2$ Write Misses:          1698492
+L2$ Writebacks:            4243173
+L2$ Miss Rate:             69.807%
+D$ Bytes Read:            314109732
+D$ Bytes Written:         899155180
+D$ Read Accesses:         59940165
+D$ Write Accesses:        118205108
+D$ Read Misses:           146284
+D$ Write Misses:          4182105
+D$ Writebacks:            4254663
+D$ Miss Rate:             2.430%
+I$ Bytes Read:            3728441696
+I$ Bytes Written:         0
+I$ Read Accesses:         932110424
+I$ Write Accesses:        0
+I$ Read Misses:           1442
+I$ Write Misses:          0
+I$ Writebacks:            0
+I$ Miss Rate:             0.000%

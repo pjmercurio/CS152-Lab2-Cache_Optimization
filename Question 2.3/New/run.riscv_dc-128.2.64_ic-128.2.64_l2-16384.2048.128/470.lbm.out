@@ -1,0 +1,42 @@
+MAIN_printInfo:
+	grid size      : 100 x 100 x 130 = 1.14 * 10^6 Cells
+	nTimeSteps     : 1
+	result file    : /dev/null
+	action         : nothing
+	simulation type: channel flow
+	obstacle file  : /home/cc/cs152/sp14/class/cs152-ch/cs152-pjmercurio/lab2/spec-cpu2006-riscv/470.lbm/src/../data/test/input/100_100_130_cf_a.of
+
+LBM_showGridStatistics:
+	nObstacleCells:  498440 nAccelCells:       0 nFluidCells:  801560
+	minRho:   1.0000 maxRho:   1.0000 mass: 1.140175e+03
+	minU: 0.000000e+00 maxU: nan
+
+LBM_showGridStatistics:
+	nObstacleCells:  498440 nAccelCells:       0 nFluidCells:  801560
+	minRho:   1.0000 maxRho:   1.0025 mass: 1.140185e+03
+	minU: 0.000000e+00 maxU: nan
+
+L2$ Bytes Read:            1556420096
+L2$ Bytes Written:         1192033472
+L2$ Read Accesses:         24319064
+L2$ Write Accesses:        18625523
+L2$ Read Misses:           1718636
+L2$ Write Misses:          0
+L2$ Writebacks:            42686
+L2$ Miss Rate:             4.002%
+D$ Bytes Read:            10015686237
+D$ Bytes Written:         8708220848
+D$ Read Accesses:         1305558759
+D$ Write Accesses:        1107609663
+D$ Read Misses:           6879063
+D$ Write Misses:          17439203
+D$ Writebacks:            18625523
+D$ Miss Rate:             1.008%
+I$ Bytes Read:            41953702120
+I$ Bytes Written:         0
+I$ Read Accesses:         10488425530
+I$ Write Accesses:        0
+I$ Read Misses:           798
+I$ Write Misses:          0
+I$ Writebacks:            0
+I$ Miss Rate:             0.000%

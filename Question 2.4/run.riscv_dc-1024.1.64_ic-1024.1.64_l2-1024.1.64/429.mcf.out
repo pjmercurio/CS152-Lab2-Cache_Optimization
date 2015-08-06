@@ -1,0 +1,41 @@
+
+MCF SPEC CPU2006 version 1.10
+Copyright (c) 1998-2000 Zuse Institut Berlin (ZIB)
+Copyright (c) 2000-2002 Andreas Loebel & ZIB
+Copyright (c) 2003-2005 Andreas Loebel
+
+nodes                      : 1950
+active arcs                : 9963
+simplex iterations         : 6560
+objective value            : 120167
+new implicit arcs          : 1003592
+active arcs                : 1013555
+simplex iterations         : 26913
+objective value            : 64110
+erased arcs                : 1000849
+checksum                   : 255197
+done
+L2$ Bytes Read:            4065372160
+L2$ Bytes Written:         347737408
+L2$ Read Accesses:         63521440
+L2$ Write Accesses:        5433397
+L2$ Read Misses:           63521429
+L2$ Write Misses:          132
+L2$ Writebacks:            5433397
+L2$ Miss Rate:             92.121%
+D$ Bytes Read:            2326428958
+D$ Bytes Written:         571290357
+D$ Read Accesses:         313839944
+D$ Write Accesses:        72203446
+D$ Read Misses:           61226477
+D$ Write Misses:          2294546
+D$ Writebacks:            5433397
+D$ Miss Rate:             16.454%
+I$ Bytes Read:            7972437872
+I$ Bytes Written:         0
+I$ Read Accesses:         1993109468
+I$ Write Accesses:        0
+I$ Read Misses:           417
+I$ Write Misses:          0
+I$ Writebacks:            0
+I$ Miss Rate:             0.000%
